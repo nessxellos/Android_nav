@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(
                             MainActivity.this,
                             MainActivity.class
-
                     );
                     // 메뉴 2를 클릭할경우 같은 홈페이지가 계속 쌓일 수 있으므로 ClearTop 속성을 준다.
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
