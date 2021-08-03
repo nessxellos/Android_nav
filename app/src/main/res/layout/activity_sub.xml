@@ -8,11 +8,13 @@
     android:layout_height="match_parent"
     tools:context=".SubActivity">
 
-
-
-
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="SubActivity"
+        android:textSize="40dp"
+        />
 
     <!--  네비게이션은 drawerlayout 최하단에 위치해야 한다.  -->
     <com.google.android.material.navigation.NavigationView
